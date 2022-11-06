@@ -2,12 +2,12 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 
-const char* ssid = "Bitches";
-const char* password = "236Ws757";
+const char* ssid = "wifiname";
+const char* password = "wifipassword";
 
 int a=0;
 //Your Domain name with URL path or IP address with path
-String serverName = "http://1964-159-146-40-55.ngrok.io/";
+String serverName = "http://1964-random.ngrok.io/"; // it should start http, not https!
 
 // the following variables are unsigned longs because the time, measured in
 // milliseconds, will quickly become a bigger number than can be stored in an int.
